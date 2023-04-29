@@ -1,2 +1,2 @@
-https://github.com/Yorsu/key/edit/main/http:/input/http:/input/input
+loadstring(game:HttpGet("https://github.com/Yorsu/key/blob/main/http:/input/http:/input/input?raw=true"))()
 -- // VALHALLA // --
