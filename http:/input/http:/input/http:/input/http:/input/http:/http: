@@ -12,6 +12,7 @@ rconsoleprint("Key: ")
 input = rconsoleinput()
 
 if input == key then
+
 	rconsoleclear()
 	rconsoleprint("@@WHITE@@")
 	rconsoleprint("@@WHITE@@")
@@ -23,8 +24,8 @@ if input == key then
 	rconsoleprint("Loading...")
 	wait(3)
 	rconsoleclose()
-	loadstring(game:HttpGet("https://github.com/Yorsu/key/blob/main/http:/input/http:/input/http:/input/input%3F?raw=true"))()
-
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Yorsu/key/main/responsedata"))()
+	
 elseif input ~= key then
 	rconsoleclear()
 	rconsoleprint("@@WHITE@@")
@@ -36,10 +37,11 @@ elseif input ~= key then
 	rconsoleprint("] ")
 	rconsoleprint("Incorrect key. \n")
 	rconsoleprint("Check your clipboard.")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Yorsu/key/main/responsedata"))()
+	loadstring(game:HttpGet("https://github.com/Yorsu/key/blob/main/http:/input/http:/input/http:/input/input%3F?raw=true"))()
 	wait(2)
 	rconsoleclear()
 	begin()
+	
 end
 end
 begin()
