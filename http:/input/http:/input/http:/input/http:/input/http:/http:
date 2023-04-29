@@ -1,5 +1,5 @@
 local input
-local key = loadstring(game:HttpGet("https://github.com/Yorsu/key/blob/main/http:/http:?raw=true"))()
+local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/Yorsu/key/main/http%3A/http%3A"))()
 function begin()
 rconsolename("// VALHALLA // Key System // Made By: lv#7305 //")
 rconsoleprint("@@WHITE@@")
