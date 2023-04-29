@@ -1,7 +1,7 @@
 local input
 local key = loadstring(game:HttpGet("https://github.com/euronetic/crispy-guacamole/blob/main/key?raw=true"))()
 function begin()
-rconsolename("\\\ VALHALLA \\\ Key System \\\ Made By: lv#7305 \\\")
+rconsolename("// VALHALLA // Key System // Made By: lv#7305 //")
 rconsoleprint("@@WHITE@@")
 rconsoleprint("[")
 rconsoleprint("@@CYAN@@")
